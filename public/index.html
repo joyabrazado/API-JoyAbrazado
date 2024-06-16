@@ -7,6 +7,21 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <h1>hello</h1>
+    <body>
+        <h1>NASA Astronomy Picture of the Day</h1>
+        <div>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" max="">
+            <button onclick="fetchAPOD()">Get Picture</button>
+        </div>
+        <div id="content">
+            <h2 id="title"></h2>
+            <img id="image" style="display: none;" />
+            <iframe id="video" style="display: none;" frameborder="0" allowfullscreen></iframe>
+            <p id="description"></p>
+        </div>
+        <script src="assets/js/script.js"></script>
+    </body>
+    </html>
 </body>
 </html>
