@@ -3,8 +3,6 @@ body {
     background: linear-gradient(135deg, #1D0943, #4C154A);
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -14,7 +12,7 @@ h1 {
     color: aliceblue;
     font-weight: bold;
     font-size: 48px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 input, button {
@@ -35,7 +33,7 @@ input, button {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin: 10px;
+    margin: 0 10px;
 }
 
 input:hover, button:hover {
@@ -50,17 +48,26 @@ h2 {
 }
 
 #image, #video {
-    max-height: 300px;
+    width: 30vw;
+    height: auto;
+    margin-right: 36px;
+}
+
+#image:hover {
+    scale: 1.05;
+    transition: ease-in-out 1s;
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
 }
 
 p{
     color: aliceblue;
     font-size: 20px;
-    max-width: 70vw;
+    max-width: 40vw;
+    text-align: left;
 }
 #content {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
