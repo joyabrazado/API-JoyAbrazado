@@ -43,8 +43,8 @@ input:hover, button:hover {
 
 h2 {
     color: aliceblue;
-    font-size: 36px;
-    padding-top: 4px;
+    font-size: 30px;
+    padding-top: 16px;
 }
 
 #image, #video {
@@ -61,7 +61,7 @@ h2 {
 
 p{
     color: aliceblue;
-    font-size: 20px;
+    font-size: 16px;
     max-width: 40vw;
     text-align: left;
 }
