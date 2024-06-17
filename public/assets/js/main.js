@@ -1,12 +1,14 @@
 // API KEY
 const apiKey = 'tBQx6CdSjb7gp9Phm2zA8hJ46rei4jrXM54ksp4B';
 
+// date
 document.addEventListener('DOMContentLoaded', (event) => {
     const dateInput = document.getElementById('date');
     const today = new Date().toISOString().split('T')[0];
     dateInput.setAttribute('max', today);
 });
 
+// get apod
 async function fetchAPOD() {
     const date = document.getElementById('date').value;
     const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=${date}`;
@@ -23,14 +25,15 @@ async function fetchAPOD() {
     }
 }
 
+// display content
 function displayAPOD(data) {
     const title = document.getElementById('title');
     const image = document.getElementById('image');
     const video = document.getElementById('video');
     const description = document.getElementById('description');
 
-    title.textContent = data.title;
-    description.textContent = data.explanation;
+    title.textContents = data.title;
+    description.textContents = data.explanation;
 
     if (data.media_type === 'image') {
         image.src = data.url;
