@@ -7,6 +7,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -40,4 +41,26 @@ input, button {
 input:hover, button:hover {
     box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
     transition-duration: .1s;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 36px;
+    padding-top: 4px;
+}
+
+#image, #video {
+    max-height: 300px;
+}
+
+p{
+    color: aliceblue;
+    font-size: 20px;
+    max-width: 70vw;
+}
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
