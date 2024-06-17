@@ -24,8 +24,8 @@ input, button {
     cursor: pointer;
     flex-shrink: 0;
     font-size: 16px;
-    font-weight: 500;
-    height: 4rem;
+    font-weight: 600;
+    height: 3rem;
     padding: 0 1.6rem;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
@@ -44,7 +44,7 @@ input:hover, button:hover {
 h2 {
     color: aliceblue;
     font-size: 30px;
-    padding-top: 16px;
+    padding-top: 36px;
 }
 
 #image, #video {
@@ -62,8 +62,10 @@ h2 {
 p{
     color: aliceblue;
     font-size: 16px;
-    max-width: 40vw;
+    max-width: 30vw;
     text-align: left;
+    display: flex;
+    align-self: flex-start;
 }
 #content {
     display: flex;
