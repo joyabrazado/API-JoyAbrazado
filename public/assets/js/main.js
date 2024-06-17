@@ -32,8 +32,8 @@ function displayAPOD(data) {
     const video = document.getElementById('video');
     const description = document.getElementById('description');
 
-    title.textContents = data.title;
-    description.textContents = data.explanation;
+    title.textContent = data.title;
+    description.textContent = data.explanation;
 
     if (data.media_type === 'image') {
         image.src = data.url;
