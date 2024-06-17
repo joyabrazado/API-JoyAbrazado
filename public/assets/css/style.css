@@ -1,4 +1,10 @@
 body {
-    background: black;
-    color: white;
+    height: 1080px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
 }
