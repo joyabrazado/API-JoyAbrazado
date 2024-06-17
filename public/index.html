@@ -13,11 +13,12 @@
 <body>
     <body>
         <h1>NASA Astronomy Picture of the Day</h1>
-        <div>
-            <label for="date">Select Date:</label>
+        <!-- DATE AND BUTTON -->
+        <div id="interact">
             <input type="date" id="date" max="">
-            <button onclick="fetchAPOD()">Get Picture</button>
+            <button onclick="fetchAPOD()">See Picture!</button>
         </div>
+        <!-- CONTENT -->
         <div id="content">
             <h2 id="title"></h2>
             <img id="image" style="display: none;" />
